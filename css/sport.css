@@ -1,0 +1,45 @@
+.wrap_m {
+    width: 1020px;
+    max-width: 1020px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+main {
+    background-image: url("../images/main_block/banner2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+main .text {
+    padding-bottom: 20px;
+}
+
+main p {
+    line-height: 25px;
+    padding: 10px 0;
+}
+
+main .images {
+    background-image: url("../images/sport/sport.webp");
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.3);
+    margin: 10px 0;
+}
+
+.sportishka {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sportishka img {
+    width: 130px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.3);
+}

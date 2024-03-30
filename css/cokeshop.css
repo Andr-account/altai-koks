@@ -1,0 +1,83 @@
+main {
+    background-image: url("../images/main_block/banner2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+main .image {
+    background-image: url("../images/Coke_shop/Coke_shop.webp");
+    background-position-y: 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.3);
+    margin: 10px 0;
+}
+
+main .text {
+    line-height: 25px;
+}
+
+main .typesofcoke {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+main .block {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.3);
+}
+
+main .block img {
+    margin: 10px 0;
+}
+
+main .block p {
+    padding: 10px;
+    line-height: 25px;
+}
+
+main .element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+main h2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+main .box {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+main .images p {
+    display: flex;
+    justify-content: center;
+}
+
+main .images img {
+    width: 300px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.3);
+    margin: 15px 15px 0;
+
+}
+main .box p {
+    line-height: 20px;
+    padding: 10px;
+}
